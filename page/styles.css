@@ -1,0 +1,386 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Montserrat' !important;
+    background-color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+.logo span {
+    color: #ea1538;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white; text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: .3s;
+}
+
+.button {
+    border: none;
+    background: linear-gradient(to right, #402662, #3900aa 70%);
+    ;
+    padding: 12px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.button:hover {
+    box-shadow: 0px 0px 10px 0px #bfbfbf82;
+    color: white;
+}
+
+
+.repertoar {
+    height: 100vh;
+    width: 100%;
+}
+
+.register {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+    border-radius: 5px !important;
+    border-collapse: separate;
+    perspective: 1px;
+    overflow: hidden;
+    border: none;
+    width: 195px !important;
+    height: 35px !important;
+
+}
+
+select {
+    border-radius: 5px;
+    height: 35px;
+}
+
+.welcome_class {
+    text-align: center !important;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#logo {
+    color: white;
+    font-size: 28px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+
+#logo span {
+    color: #ea1538;
+}
+
+.nav-bar-color {
+   background: linear-gradient(to left, #40266238, #3900aa36 70%);
+}
+
+.login-sekcija {
+    padding-top: 200px !important;
+    padding-bottom: 100px !important;
+}
+
+select {
+    margin-top: 20px !important;
+}
+
+#buttonreglog {
+    margin-top: 20px !important;
+}
+
+.footer-lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-lista-li {
+    float: left;
+    left: 50%;
+}
+
+.footer-lista-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.footer-lista-li a:hover {
+    background-color: #111111;
+}
+
+.carousel-inner>.carousel-item>img {
+    width: 100%;
+    height: 714px;
+}
+
+.film1 {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.film1:hover {
+
+    color: #fff;
+}
+
+@media (min-width:1200) {
+    .carousel-inner>.carousel-item>img {}
+}
+
+.h1-heading {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.p-paragraph {
+    font-size: 40px;
+}
+
+.join-us-a {
+    border-radius: 10px;
+    background: linear-gradient(to right, #402662, #3900aa 70%);
+    font-size: 20px;
+    text-decoration: none;
+    color: white !important;
+    width: 130px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 900;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-us-a:hover {
+    box-shadow: 0px 0px 10px 0px #bfbfbf82;
+}
+
+.h4-heading {
+    font-weight: 600;
+}
+
+@media (max-width:530px) {
+    .first-image {
+        width: 380px !important;
+    }
+
+    .h1-heading {
+        font-size: 48px !important;
+    }
+
+    .p-paragraph {
+        font-size: 27px !important;
+    }
+}
+
+.first-image {
+    width: 397px;
+    height: 504;
+}
+
+@media (max-width:767px) {
+    .h1-heading {
+        font-size: 48px !important;
+    }
+
+    .p-paragraph {
+        font-size: 28px !important;
+    }
+}
+
+
+@media (max-width:991px) {
+    .h1-heading {
+        font-size: 53px !important;
+    }
+
+    .p-paragraph {
+        font-size: 38px !important;
+    }
+}
+
+.second-section-h1 {
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*.gradient-custom {
+  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+.carousel-indicators {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;*/
+
+
+/*BOXES START*/
+
+
+.container_second {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+    .container_second {
+        flex-direction: row;
+    }
+}
+
+
+.logreg-klasa-h2 {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.card {
+    border-radius: 15px !important;
+}
+
+.div-tabela {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+}
+
+.form-contact-us {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+textarea {
+    resize: vertical;
+    margin-top: 20px;
+    width: 196px;
+    border-radius: 6px;
+}
+
+.testimonials-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.podaci-p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.moj-profil-a {
+    text-decoration: none;
+}
+
+.border-rounded {
+
+    border-radius: 10px !important;
+}
+.tekst-klasa{
+	display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.mailto-a{
+    text-decoration: none;
+    border-radius:10px;
+    background: linear-gradient(to right, #402662, #3900aa 70%);
+    color:white;
+    padding-top: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 10px;
+}
+.mailto-a:hover{
+    box-shadow: 0px 0px 10px 0px #bfbfbf82;
+    color:white;
+}
+.send-email-div{
+    margin-top:200px;
+     margin-bottom:150px;
+}
+.card{
+    background:#c5c5c5;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
